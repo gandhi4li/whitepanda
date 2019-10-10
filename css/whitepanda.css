@@ -1,0 +1,112 @@
+*{
+    list-style: none;
+}
+body
+{font-family: "Imperator", Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif; }
+
+.wrapper{
+    display: flex;
+    position: relative;
+  
+  }
+  
+  .wrapper .sidebar{
+    position: fixed;
+    width: 100px;
+    height: 1000px;
+    background: #fff;
+    padding-top: 100px;
+    
+  }
+  
+  .wrapper .sidebar ul li{
+    padding: 20px;
+    margin-left: 0;
+    /* border-bottom: 1px solid blue; */
+    /* border-top: 1px solid orange; */
+  }
+  
+  .wrapper .sidebar ul li a i{
+    font-size: 28px;
+    color:#3498DB;
+  }
+  .wrapper .sidebar ul li a i:hover{
+    color: grey;
+  }
+  
+  #first-li{
+    border-right: 2px solid #3498DB;
+  }
+
+  .navbar .nav-item .nav-link a i:hover{
+    color: grey;
+  }
+
+/*.notif{
+  position: absolute;
+  
+}
+  
+.num{
+  position: relative;
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  
+}  */
+
+.jumbotron .butt:hover{
+  background-color: #3498DB;
+  color: #fff;
+}
+
+#slow-transition {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 500ms;
+}
+
+#slow-transition:hover {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+.head{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.head .card-title{
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.head .cardimg{
+  margin-right: 20px;
+
+}
+.head img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.head .card-body .content{
+ text-align: center;  
+}
+
+.footer .text-center a i{
+  padding: 15px;
+  font-size: 28px;
+  color: grey;
+}
+
+.footer .text-center a i:hover{
+  color: #3498DB;
+}
+
+.footer .text-center p a{
+  color:grey;
+}
